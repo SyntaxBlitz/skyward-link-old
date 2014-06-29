@@ -80,4 +80,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  SITE_URL = 'http://skyward.link'
+  STATIC_URL = 'http://static.skyward.link'
 end
