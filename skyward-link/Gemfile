@@ -1,8 +1,14 @@
 source 'https://rubygems.org'
 
+# We're serving this application with thin
+gem 'thin'
+
 # Use dotenv to load environment variables like secret key base
 gem 'dotenv-deployment'
 gem 'dotenv-rails'
+
+# Use websocket-rails because we need websocket support!
+gem 'websocket-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
