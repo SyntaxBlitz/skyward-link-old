@@ -1,12 +1,13 @@
 skyward-link
 ============
 
-This is the repository for a django application I'm working on that will let you use an Internet-enabled smartphone to control a live Google Drive presentation. It's coming along nicely, but so far much of what I've written is still in the prototype stage.
+This is the repository for an application I'm working on that will let you use an Internet-enabled smartphone to control a live Google Drive presentation.
+
+It is currently a working prototype. The code in this repository is horribly out of date, but in the coming days, once I get a few things polished, I'll upload all of the code to this repository.
 
 This project, excluding its dependencies, is released under the MIT license by Timothy Aveni.
 
-Installation
-------------
-This section will become more complete as more content is added to the repository.
+Demo
+----
 
-The CLIENT_ID variable in static/index.js needs to be changed to the Google API client ID of the application.
+This project is hosted at [https://skyward.link/](https://skyward.link/). You'll want to visit this page on your phone with a computer nearby.
